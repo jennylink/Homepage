@@ -8471,10 +8471,9 @@ h0, h1, h2, h3, h4, h5, h1m,
             .owl-carousel.home-slider .slider-item .slider-text .one-forth2 {
               width: 100%;
               position: absolute;
-              top: 0;
+              top: 15%;
               left: 0;
-              right: 0;
-              bottom: 0;
+         
               z-index: 1;
               padding: 1em; } }
           .owl-carousel.home-slider .slider-item .slider-text .one-forth2 .text {
@@ -8492,18 +8491,7 @@ h0, h1, h2, h3, h4, h5, h1m,
                 padding-left: 45px;
                 padding-right: 3em; } }
 
-            @media (max-width: 768px) {
-              .owl-carousel.home-slider .slider-item .slider-text .one-forth2 .text {
-                position: absolute;
-                top: 35%;
-                left: 0;
-                -webkit-transform: translateY(-50%);
-                -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
-                right: 0;
-                max-width: 50%;
-                padding-left: 45px;
-                padding-right: 3em; } }
+
 
         .owl-carousel.home-slider .slider-item .slider-text .icon-video {
           position: absolute;
