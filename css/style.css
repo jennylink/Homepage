@@ -8363,9 +8363,10 @@ h0, h1, h2, h3, h4, h5,
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-third {
               width: 100%;
+			height: 550px;
               z-index: 0; }
               .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
-                opacity: .3; }
+                opacity: .8;}
               .owl-carousel.home-slider .slider-item .slider-text .one-third:after {
                 opacity: 0; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-forth {
