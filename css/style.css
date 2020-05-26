@@ -8469,11 +8469,10 @@ h0, h1, h2, h3, h4, h5, h1m,
               margin: 0 auto; } }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth2 {
-              width: 100%;
+              width: 80%;
               position: absolute;
               top: 15%;
               left: 0;
-         
               z-index: 1;
               padding: 1em; } }
           .owl-carousel.home-slider .slider-item .slider-text .one-forth2 .text {
