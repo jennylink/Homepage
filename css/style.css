@@ -8892,6 +8892,19 @@ h0, h1, h2, h3, h4, h5, h1m,
  .services-1 .desc p a:hover, .services-1 .desc p a:focus, .services-1 .desc p a:active {
           color: #3530cc; }
 
+.services-2 {
+  margin-bottom: 40px;
+  padding: 2em;
+  background: #fff;
+  width: 100%;
+  -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17); }
+ @media (max-width: 768px) {
+    .services-2 {
+      heigth: 650px; } }
+
+
 
 .progress-wrap {
   width: 100%;
@@ -8996,7 +9009,7 @@ h0, h1, h2, h3, h4, h5, h1m,
     transition: all 0.3s ease; }
     @media (max-width: 767.98px) {
       .project .overlay {
-        opacity: .2; } }
+        opacity: .7; } }
 
   .project .overlay2 {
     position: absolute;
@@ -9015,7 +9028,7 @@ h0, h1, h2, h3, h4, h5, h1m,
     transition: all 0.3s ease; }
     @media (max-width: 767.98px) {
       .project .overlay2 {
-        opacity: .2; } }
+        opacity: .7; } }
 
   .project .text {
     max-width: 90%;
