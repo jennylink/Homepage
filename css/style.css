@@ -8338,7 +8338,7 @@ h0, h1, h2, h3, h4, h5, h1m,
     position: relative;
     height: 750px;
     z-index: 0; }
-@media (max-width: 991.98px) { /*pink rectangle size*/
+@media (max-width: 991.98px) { /*container height*/
          .owl-carousel.home-slider {
         height: 60%;
 			 } }
@@ -8356,7 +8356,8 @@ h0, h1, h2, h3, h4, h5, h1m,
       z-index: -1; }
 	@media (max-width: 991.98px) { /*pink rectangle size*/
          .owl-carousel.home-slider:after {
-        height: 70%;
+        	width: 45%;
+			 height: 60%;
 			 } }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
@@ -8371,7 +8372,7 @@ h0, h1, h2, h3, h4, h5, h1m,
 	@media (max-width: 991.98px) { /*image height*/
          .owl-carousel.home-slider .slider-item {
         background-position: center center;
-			  height: 650px;
+			  height: 500px;
 			 } }
       .owl-carousel.home-slider .slider-item .overlay {
         position: absolute;
