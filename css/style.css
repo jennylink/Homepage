@@ -8885,9 +8885,8 @@ h0, h1, h2, h3, h4, h5, h1m,
             .ftco-about .img-about .img {
 				background-repeat: no-repeat;
 				width: 70%;
-				height: auto;
+				height: contain;
 				margin: 0 auto;
-				background-size: contain;
 			} }
 
  .ftco-about .btn-custom {
