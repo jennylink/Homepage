@@ -8876,16 +8876,13 @@ h0, h1, h2, h3, h4, h5, h1m,
     width: contain;
 	  background-size: 100% 100%;
     position: relative;
-	  z-index: 1; }
-	  @media (min-width: 769px) {
-            .ftco-about .img-about .img {
+	  z-index: 1; 
 				-webkit-box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33);
     -moz-box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33);
-    box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33); }	} 
+    box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33); }	
     
         @media (max-width: 768px) {
             .ftco-about .img-about .img {
-				background-image: url("../images/cover.jpg");
 				background-repeat: no-repeat;
 				width: 70%;
 				height: 450px;
