@@ -8890,12 +8890,12 @@ h0, h1, h2, h3, h4, h5, h1m,
 
  .ftco-about .btn-custom {
           border: 2px solid #3530cc;
-          padding: 5px 10px;
+          padding: 5px 20px;
 	 	background: #fff;
           text-transform: uppercase;
           font-size: 12px;
 	 font-weight: bold;
-          letter-spacing: 2px;	
+          letter-spacing: 2.5px;	
 	 position: absolute;
 	 display: -webkit-box;
   display: -moz-box;
@@ -8912,11 +8912,15 @@ h0, h1, h2, h3, h4, h5, h1m,
   -webkit-box-pack : center;
   -moz-box-pack : center;
   -ms-flex-pack : center;
-	 top: 50%;
-	 left: 33%;
-
-	
+	 	 top: 50%;
+				left: 33%;
 }
+
+        @media (max-width: 768px) {
+            .ftco-about .btn-custom {
+          padding: 5px 10px;
+          letter-spacing: 2px;	
+ }}
 
 .ftco-about a {
 	 color: #3530cc;
