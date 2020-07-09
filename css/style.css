@@ -8391,7 +8391,7 @@ h0, h1, h2, h3, h4, h5, h1m,
 			  height: 620px;
 			 } }
         .owl-carousel.home-slider .slider-item .slider-text .one-third {
-          width: 80%;
+          width: 82.5%;
           position: relative;
           height: 650px;
           z-index: -1;
@@ -8488,7 +8488,8 @@ h0, h1, h2, h3, h4, h5, h1m,
             width: 100%; }
 			@media (max-width: 991.98px) {
               .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
-                margin: 0 auto;
+                margin-top: 5%;
+				  margin-left: 10%;
                 width: 75% } }
             @media (min-width: 992px) {
               .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
@@ -8575,7 +8576,7 @@ h0, h1, h2, h3, h4, h5, h1m,
           font-weight: 800; }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
             font-weight: 800;
-            color: #FD82B1; }
+            color: #FFD9FF; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               color: #fff;
@@ -8594,7 +8595,7 @@ h0, h1, h2, h3, h4, h5, h1m,
             color: #FD82B1; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1m {
-              color: #3530CC;
+              color: #fff;
               font-size: 50px; } }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1m {
