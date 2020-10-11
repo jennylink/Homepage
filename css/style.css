@@ -8729,13 +8729,13 @@ h0, h1, h2, h3, h4, h5, h1m,
     .hero-wrap.hero-wrap-2 .slider-text {
       height: 600px; }
 
-.slider-text h1 {
+.slider-text h1, h1m {
   font-size: 48px;
   color: #fff;
   line-height: 1.2;
   font-weight: 400; }
   @media (max-width: 991.98px) {
-    .slider-text h1 {
+    .slider-text h1, h1m {
       font-size: 40px; } }
 
 .slider-text p {
