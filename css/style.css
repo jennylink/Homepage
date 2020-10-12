@@ -8590,6 +8590,11 @@ h0, h1, h2, h3, h4, h5, h1m,
           color: #000000;
           line-height: 1.2;
           font-weight: 800; }
+       .owl-carousel.home-slider .slider-item .slider-text h1m a {
+          font-size: 60px;
+          color: #000000;
+          line-height: 1.2;
+          font-weight: 800; }
           .owl-carousel.home-slider .slider-item .slider-text h1m span {
             font-weight: 800;
             color: #FD82B1; }
