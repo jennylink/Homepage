@@ -8341,7 +8341,7 @@ h0, h1, h2, h3, h4, h5, h1m,
 @media (max-width: 991.98px) { /*container height*/
          .owl-carousel.home-slider {
         height: 520px;
-		width: 98%;
+		width: 99%;
 			 } }
 
     .owl-carousel.home-slider:after {
