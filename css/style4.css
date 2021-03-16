@@ -9281,7 +9281,7 @@ textarea.form-control {
 }
 
 .ftco-section hr {
- position: relative; 
+ 			position: relative; 
             top: 40px; 
             border: none; 
             height: 12px; 
@@ -9290,7 +9290,13 @@ textarea.form-control {
 }
   @media (max-width: 767.98px) {
     .ftco-section {
-      margin: 4em } }
+      margin-bottom: 60px } }
+
+.ftco-section h1 {
+          font-size: 60px;
+          color: #752f08;
+          line-height: 1.2;
+          font-weight: 800; }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -9974,7 +9980,7 @@ background: linear-gradient(90deg, rgba(255,135,103,1) 0%, rgba(255,135,103,1) 1
   outline: none;
   position: relative;
   padding: 10px;
-  margin: 20px 0 ;
+  margin: 30px 0 20px ;
 	
   }
 
@@ -10002,6 +10008,50 @@ button:hover::after, button:focus::after {
   display: none;
 }
 
+.buttonnl {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: 'futura', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  background: #ff8767;
+background: linear-gradient(90deg, rgba(255,135,103,1) 0%, rgba(255,135,103,1) 100%);
+  border: none;
+  /*box-shadow: 12px 12px 24px rgba(255,135,103,.64);*/
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  margin: 30px 0 20px ;
+	
+  }
+
+
+.buttonnl:hover, .button:focus {
+  color: #000000;
+  transform: translateY(-6px);
+}
+
+
+buttonnl::after {
+  content: '';
+  width: 43px; height: 30px;
+  border: 6px solid #ffff00;
+  position: absolute;
+  z-index: -1;
+  top: 100%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+buttonnl:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
 @keyframes ring {
   0% {
     width: 30px;
@@ -10009,8 +10059,8 @@ button:hover::after, button:focus::after {
     opacity: 1;
   }
   100% {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     opacity: 0;
   }
 }
