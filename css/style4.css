@@ -51,6 +51,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
@@ -69,8 +70,8 @@ hr {
   overflow: visible; }
 
 h0, h1, h2, h3, h4, h5, h6, h1m {
-  margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 p {
   margin-top: 0;
@@ -293,7 +294,7 @@ template {
 
 h0, h1, h2, h3, h4, h5, h6, h1m,
 .h0, .h1, .h2, .h3, .h4, .h5, .h6, .h1m {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 	font-family: 'Wotfard SemiBold', 'Wotfard Bold', sans-serif;
   font-weight: 500;
   line-height: 1.2;
@@ -8584,7 +8585,8 @@ h0, h1, h2, h3, h4, h5, h1m,
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               color: #fff;
-              font-size: 50px; } }
+              font-size: 50px; 
+			} }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               font-size: 40px; } }
@@ -9268,11 +9270,13 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  pmargin: 0;
+  padding: 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 4em 0; } }
+       pmargin: 0;
+  padding: 0; } }
 
 .ftco-section .container .rowstockist {
           display: flex;
@@ -9293,13 +9297,15 @@ textarea.form-control {
 }
   @media (max-width: 767.98px) {
     .ftco-section {
-      margin-bottom: 60px } }
+       pmargin: 0;
+  padding: 0; } }
 
 .ftco-section h1 {
           font-size: 60px;
           color: #752f08;
           line-height: 1.2;
-          font-weight: 800; }
+          font-weight: 800;
+}
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -9969,7 +9975,7 @@ html, body {
 }
 
 .button {
-  min-width: 300px;
+  min-width: 340px;
   min-height: 60px;
   font-family: 'Wotfard Bold', sans-serif;
   font-size: 24px;
@@ -10012,6 +10018,63 @@ button:hover::after, button:focus::after {
   display: none;
 }
 
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 380px;
+    height: 100px;
+    opacity: 1;
+  }
+}
+
+.button2 {
+  min-width: 340px;
+  min-height: 60px;
+  font-family: 'Wotfard Bold', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff8767;
+  background: #ff8767;
+
+  border: none;
+  /*box-shadow: 12px 12px 24px rgba(255,135,103,.64);*/
+  transition: all 0.4s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+
+  margin: 30px 0 20px ;
+	
+  }
+
+
+.button2:hover, .button:focus {
+  color: #ff8767;
+  transform: translateY(-6px);
+}
+
+
+button2::after {
+  content: '';
+  width: 43px; height: 30px;
+  border: 2px solid #ff8767;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 2.5s infinite;
+}
+
+button2:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
 
 
 @keyframes ring {
@@ -10021,7 +10084,7 @@ button:hover::after, button:focus::after {
     opacity: 1;
   }
   100% {
-    width: 350px;
+    width: 380px;
     height: 100px;
     opacity: 1;
   }
