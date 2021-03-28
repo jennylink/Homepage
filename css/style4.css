@@ -294,7 +294,7 @@ template {
 h0, h1, h2, h3, h4, h5, h6, h1m,
 .h0, .h1, .h2, .h3, .h4, .h5, .h6, .h1m {
   margin-bottom: 0.5rem;
-  font-family: inherit;
+	font-family: 'Wotfard SemiBold', 'Wotfard Bold', sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: inherit; }
@@ -303,7 +303,7 @@ h0, .h0 {
   font-size: 3.5rem; }
 
 h1, .h1  h1m, .h1m{
-  font-size: 2.5rem; }
+  font-size: 6rem; }
 
 h2, .h2 {
   font-size: 2rem; }
@@ -9313,7 +9313,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 12px;
-  background: #ff8767;
+  background: #752f08;
   padding: 2em 0 1em;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
@@ -9971,19 +9971,19 @@ html, body {
 .button {
   min-width: 300px;
   min-height: 60px;
-  font-family: 'futura', sans-serif;
-  font-size: 18px;
+  font-family: 'Wotfard Bold', sans-serif;
+  font-size: 24px;
   font-weight: 700;
   color: #000000;
-  background: #ff8767;
-background: linear-gradient(90deg, rgba(255,135,103,1) 0%, rgba(255,135,103,1) 100%);
+  background: #752f08;
+
   border: none;
   /*box-shadow: 12px 12px 24px rgba(255,135,103,.64);*/
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
   cursor: pointer;
   outline: none;
   position: relative;
-  padding: 10px;
+
   margin: 30px 0 20px ;
 	
   }
@@ -9998,7 +9998,7 @@ background: linear-gradient(90deg, rgba(255,135,103,1) 0%, rgba(255,135,103,1) 1
 button::after {
   content: '';
   width: 43px; height: 30px;
-  border: 6px solid #ff8767;
+  border: 2px solid #752f08;
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -10021,8 +10021,8 @@ button:hover::after, button:focus::after {
     opacity: 1;
   }
   100% {
-    width: 300px;
-    height: 150px;
-    opacity: 0.7;
+    width: 350px;
+    height: 100px;
+    opacity: 1;
   }
 }
