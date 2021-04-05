@@ -295,7 +295,6 @@ template {
 h0, h1, h2, h3, h4, h5, h6, h1m,
 .h0, .h1, .h2, .h3, .h4, .h5, .h6, .h1m {
   margin-bottom: 1.5rem;
-  font-family: "Wotfard SemiBold", "Wotfard Bold", sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: inherit; }
@@ -304,7 +303,7 @@ h0, .h0 {
   font-size: 3.5rem; }
 
 h1, .h1  h1m, .h1m{
-  font-family: "Wotfard Bold", sans-serif;
+  font-family: 'Wotfard Bold', sans-serif;
   font-size: 6rem; }
 
 h2, .h2 {
