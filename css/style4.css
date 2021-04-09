@@ -314,13 +314,11 @@ h3, .h3 {
 
 h4, .h4 {
   font-family: wotfardsemibold, sans-serif;
-  font-size: 1.5rem;
+  font-size: 19px;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;}
 
-@media (max-width: 767.98px) {
- .h4 h4 {
-     margin-bottom: 1rem;} }
+
 
 h5, .h5 {
   font-size: 1.25rem; }
@@ -9984,10 +9982,10 @@ html, body {
 }
 
 .button {
-  min-width: 340px;
+  min-width: 300px;
   min-height: 60px;
   font-family: wotfardbold, sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   color: #000000;
   background: #752f08;
@@ -10003,6 +10001,11 @@ html, body {
 	
   }
 
+@media (max-width: 767.98px) {
+ .button {
+	 font-size: 18px;
+       margin: 0.5rem 0 1rem ;} }
+
 
 .button:hover, .button:focus {
   color: #000000;
@@ -10010,7 +10013,7 @@ html, body {
 }
 
 
-button::after {
+.button::after {
   content: '';
   width: 43px; height: 30px;
   border: 2px solid #752f08;
@@ -10022,7 +10025,7 @@ button::after {
   animation: ring 2.5s infinite;
 }
 
-button:hover::after, button:focus::after {
+.button:hover::after, .button:focus::after {
   animation: none;
   display: none;
 }
@@ -10034,17 +10037,17 @@ button:hover::after, button:focus::after {
     opacity: 1;
   }
   100% {
-    width: 380px;
+    width: 335px;
     height: 100px;
     opacity: 1;
   }
 }
 
 .button2 {
-  min-width: 340px;
+  min-width: 300px;
   min-height: 60px;
   font-family: wotfardbold, sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   color: #ff8767;
   background: #ff8767;
@@ -10060,6 +10063,11 @@ button:hover::after, button:focus::after {
 	
   }
 
+@media (max-width: 767.98px) {
+ .button2 {
+	 font-size: 18px;
+       margin: 0.5rem 0 1rem ;} }
+
 
 .button2:hover, .button:focus {
   color: #ff8767;
@@ -10067,7 +10075,7 @@ button:hover::after, button:focus::after {
 }
 
 
-button2::after {
+.button2::after {
   content: '';
   width: 43px; height: 30px;
   border: 2px solid #ff8767;
@@ -10079,7 +10087,7 @@ button2::after {
   animation: ring 2.5s infinite;
 }
 
-button2:hover::after, button:focus::after {
+.button2:hover::after, .button:focus::after {
   animation: none;
   display: none;
 }
@@ -10093,8 +10101,10 @@ button2:hover::after, button:focus::after {
     opacity: 1;
   }
   100% {
-    width: 380px;
+    width: 335px;
     height: 100px;
     opacity: 1;
   }
 }
+
+
