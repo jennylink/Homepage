@@ -9280,6 +9280,24 @@ textarea.form-control {
 	 	.ftco-section .container .rowstockist :nth-child(3) { order: 1; }
 }
 
+
+ .ftco-section .btn-custom {
+          border: 4px solid #3530cc;
+	 width: 25%;
+           text-align: center;
+	 
+		  background: #fff;
+          text-transform: uppercase;
+          font-size: 22px;
+          letter-spacing: 3px;
+		margin: 3rem auto 0.1rem auto;
+	 font-weight: bold;
+}
+  @media (max-width: 767.98px) {
+    .ftco-section .btn-custom {
+      width: 60%; } }
+
+
 .ftco-no-pt {
   padding-top: 0 !important; }
 
