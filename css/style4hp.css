@@ -71,13 +71,14 @@ hr {
 h0, h1, h2, h3, h4, h5, h6, h1m {
   margin-top: 0;
   margin-bottom: 0.5rem; 
-	font-family: wotfardbold, sans-serif;
+	font-family: wotfardmedium, sans-serif;
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem; 
-  font-family: wotfardlight, sans-serif;
+  font-family: wotfardsemibold, sans-serif;
+	color:  #474747;
 }
 
 abbr[title],
@@ -141,7 +142,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #0056b3;
+    color: #fff;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -8119,6 +8120,8 @@ h0, h1, h2, h3, h4, h5, h1m,
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
       position: relative;
       display: block;
+		font-family: wotfardsemibold, sans-serif;
+		font-size: 1.3rem;
       padding-bottom: 2px; }
       @media (max-width: 1199.98px) {
         .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
@@ -8279,8 +8282,7 @@ h0, h1, h2, h3, h4, h5, h1m,
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 24px;
-  text-transform: uppercase; }
+  font-size: 36px; }
 
 .hero h3.vr {
   -webkit-writing-mode: vertical-lr;
@@ -9147,6 +9149,7 @@ h0, h1, h2, h3, h4, h5, h1m,
       max-width: 45%;
       z-index: 1; }
       .project.img-2 .text h3 {
+		  color: #fff;
         font-size: 22px; }
         .project.img-2 .text h3 a {
           color: #fff; }
@@ -9207,7 +9210,8 @@ h0, h1, h2, h3, h4, h5, h1m,
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
     .project .text h3 {
-      font-size: 20px; }
+      font-size: 20px;
+		color: #ffffff;}
       .project .text h3 a {
         color: #ffffff; }
     .project .text span {
@@ -9567,7 +9571,7 @@ textarea.form-control {
   background-position: center center;
   position: relative;
   display: block;
-  width: 100%;
+  width: 250px;
   height: 250px; }
 
 .blog-entry {
@@ -9586,7 +9590,7 @@ textarea.form-control {
       margin-bottom: 14px;
       font-weight: 500; }
       .blog-entry .text .heading a {
-        color: #000000; }
+        color: #752f08; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
           color: #3530cc; }
   .blog-entry .meta {
@@ -9596,11 +9600,11 @@ textarea.form-control {
     text-transform: uppercase;
     letter-spacing: 1.5px; }
     .blog-entry .meta span {
-      color: #FD82B1; }
+      color: #474747; }
     .blog-entry .meta a {
-      color: #FD82B1; }
+      color: #474747; }
       .blog-entry .meta a:hover {
-        color: #3530cc; }
+        color: #ff8767; }
 .blog-entry .text .body {
       font-size: 12px;
       margin-bottom: 14px; }
