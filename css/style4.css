@@ -8282,8 +8282,11 @@ h0, h1, h2, h3, h4, h5, h1m,
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 24px;
-  text-transform: uppercase; }
+  font-size: 24px; }
+ @media (max-width: 991.98px) {
+	  .navbar-brand {
+  	font-weight: 700;
+  	font-size: 18px; } }
 
 .hero h3.vr {
   -webkit-writing-mode: vertical-lr;
@@ -8383,7 +8386,7 @@ h0, h1, h2, h3, h4, h5, h1m,
 	@media (max-width: 991.98px) { /*image height*/
          .owl-carousel.home-slider .slider-item {
         background-position: center center;
-			  height: 550px;
+			  height: 500px;
 			 } }
       .owl-carousel.home-slider .slider-item .overlay {
         position: absolute;
