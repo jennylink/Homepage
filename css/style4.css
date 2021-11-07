@@ -8598,7 +8598,7 @@ h0, h1, h2, h3, h4, h5, h1m,
 			} }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              font-size: 40px; } }
+              font-size: 32px; } }
 
         .owl-carousel.home-slider .slider-item .slider-text h1m {
           font-size: 60px;
@@ -8623,10 +8623,10 @@ h0, h1, h2, h3, h4, h5, h1m,
               font-size: 50px; } }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1m {
-              font-size: 40px;} }
+              font-size: 32px;} }
           @media (max-width: 767.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1m {
-              font-size: 40px;} }
+              font-size: 32px;} }
 
         .owl-carousel.home-slider .slider-item .slider-text h2 {
           font-size: 30px;
