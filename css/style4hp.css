@@ -8369,8 +8369,12 @@ h0, h1, h2, h3, h4, h5, h1m,
 
 	@media (max-width: 991.98px) { /*pink rectangle size*/
          .owl-carousel.home-slider:after {
-        	width: 45%;
-			 height: 60%;
+        	 position: absolute;
+      		top: -10px;
+      		bottom: 0;
+      		right: -10px;
+			 width: 70%;
+			 height: 80%;
 			 } }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
@@ -8384,8 +8388,9 @@ h0, h1, h2, h3, h4, h5, h1m,
           background-position: center center !important; } }
 	@media (max-width: 991.98px) { /*image height*/
          .owl-carousel.home-slider .slider-item {
-        background-position: center center;
+        background-position: center;
 			  height: 550px;
+			 width: 94%;
 			 } }
       .owl-carousel.home-slider .slider-item .overlay {
         position: absolute;
