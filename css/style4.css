@@ -8386,7 +8386,7 @@ h0, h1, h2, h3, h4, h5, h1m,
 	@media (max-width: 991.98px) { /*image height*/
          .owl-carousel.home-slider .slider-item {
         background-position: center center;
-			  height: 500px;
+			  height: 450px;
 			 } }
       .owl-carousel.home-slider .slider-item .overlay {
         position: absolute;
