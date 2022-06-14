@@ -966,13 +966,6 @@ margin: 0 auto;
     flex: 0 0 100%;
     max-width: 100%; 
 	}
-	
- .col-md-13 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-	 background-color: rgb(112,124,73, 0.9);
 }
 	
   .order-md-first {
