@@ -8398,7 +8398,7 @@ h0, h1, h2, h3, h4, h5, h1m,
         bottom: 0;
         left: 0;
         right: 0;
-        background: #ff0000;
+        background: #707c49;
         opacity: 0; }
 
 
@@ -8424,7 +8424,7 @@ h0, h1, h2, h3, h4, h5, h1m,
             bottom: 0;
             left: 0;
             right: 0;
-            background: #ff0000;
+            background: #707c49;
             opacity: 0; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-third {
